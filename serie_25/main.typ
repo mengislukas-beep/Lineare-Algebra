@@ -240,7 +240,7 @@ $
 $
   => E_0 = span{1} quad "with multiplicitie =  1"
 $
-Case 2 $quad n >= 1bar n in #N$
+Case 2 $quad n >= 1bar n in #N     $
 $
   Delta cos(n x) = n^2 cos( n x)\
   Delta sin(n x) = n^2 sin(n x)
