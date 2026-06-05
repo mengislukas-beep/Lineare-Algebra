@@ -146,11 +146,12 @@ $
 Proof by counterexample:\
 define the function $f_epsilon$
 $
-  f_epsilon (x) = cases(0 quad &x in [-1","1] without [-epsilon","epsilon],\
+  f_epsilon (x) = cases(0 quad &x in [-1","1] without [-epsilon","epsilon],
   (epsilon - abs(x))/epsilon  quad &x in [-epsilon "," epsilon]
  
   )
 $
+
 $
   => phi(f_epsilon) = 1 quad forall epsilon\
   integral_(-1)^1 f(x)g(x) d x &=  integral_(-epsilon)^epsilon f(x) g(x) d x\
